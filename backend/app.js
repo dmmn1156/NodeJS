@@ -41,8 +41,5 @@ app.use(function(err, req, res, next) {
   res.render('error');
 }); 
 
-
-app.use('/api/movies', moviesRouter);
-
 module.exports = app;
 
