@@ -10,8 +10,8 @@ var moviesRouter = require('./routes/movies');
 
 var app = express();
 
-app.use('/api/movies', moviesRouter);
 
+app.use('/api/movies', moviesRouter);
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
